@@ -164,9 +164,12 @@ class _HomeWidgetState extends State<HomeWidget> {
                 ),
                 child: Row(
                   mainAxisSize: MainAxisSize.max,
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Column(
                       mainAxisSize: MainAxisSize.max,
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
                           'Hello World',
@@ -222,7 +225,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                               10.0, 0.0, 10.0, 0.0),
                           child: Container(
                             width: MediaQuery.of(context).size.width * 0.7,
-                            height: 150.0,
+                            height: 180.0,
                             decoration: BoxDecoration(
                               color: FlutterFlowTheme.of(context)
                                   .secondaryBackground,
@@ -233,6 +236,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                               children: [
                                 Column(
                                   mainAxisSize: MainAxisSize.max,
+                                  mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
                                     Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
@@ -329,6 +333,106 @@ class _HomeWidgetState extends State<HomeWidget> {
                                 ),
                                 Column(
                                   mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Padding(
+                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                          5.0, 5.0, 5.0, 5.0),
+                                      child: Image.network(
+                                        'https://picsum.photos/seed/679/600',
+                                        width: 100.0,
+                                        height: 100.0,
+                                        fit: BoxFit.cover,
+                                      ),
+                                    ),
+                                    AutoSizeText(
+                                      'test name ',
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .override(
+                                            fontFamily: 'Poppins',
+                                            color: Color(0xFFF10952),
+                                          ),
+                                    ),
+                                  ],
+                                ),
+                                Column(
+                                  mainAxisSize: MainAxisSize.max,
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  children: [
+                                    Padding(
+                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                          5.0, 5.0, 5.0, 5.0),
+                                      child: Image.network(
+                                        'https://picsum.photos/seed/679/600',
+                                        width: 100.0,
+                                        height: 100.0,
+                                        fit: BoxFit.cover,
+                                      ),
+                                    ),
+                                    AutoSizeText(
+                                      'test name ',
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .override(
+                                            fontFamily: 'Poppins',
+                                            color: Color(0xFFF10952),
+                                          ),
+                                    ),
+                                  ],
+                                ),
+                                Column(
+                                  mainAxisSize: MainAxisSize.max,
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  children: [
+                                    Padding(
+                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                          5.0, 5.0, 5.0, 5.0),
+                                      child: Image.network(
+                                        'https://picsum.photos/seed/679/600',
+                                        width: 100.0,
+                                        height: 100.0,
+                                        fit: BoxFit.cover,
+                                      ),
+                                    ),
+                                    AutoSizeText(
+                                      'test name ',
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .override(
+                                            fontFamily: 'Poppins',
+                                            color: Color(0xFFF10952),
+                                          ),
+                                    ),
+                                  ],
+                                ),
+                                Column(
+                                  mainAxisSize: MainAxisSize.max,
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  children: [
+                                    Padding(
+                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                          5.0, 5.0, 5.0, 5.0),
+                                      child: Image.network(
+                                        'https://picsum.photos/seed/679/600',
+                                        width: 100.0,
+                                        height: 100.0,
+                                        fit: BoxFit.cover,
+                                      ),
+                                    ),
+                                    AutoSizeText(
+                                      'test name ',
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .override(
+                                            fontFamily: 'Poppins',
+                                            color: Color(0xFFF10952),
+                                          ),
+                                    ),
+                                  ],
+                                ),
+                                Column(
+                                  mainAxisSize: MainAxisSize.max,
+                                  mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
                                     Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
